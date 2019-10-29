@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-
+.done {  text-decoration: line-through;}
 .App-logo {
   height: 40vmin;
 }
