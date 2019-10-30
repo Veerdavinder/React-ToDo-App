@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Todo from './Todo';
 import "bootstrap/dist/css/bootstrap.min.css"
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import CreateTodo from "./createTodo";
@@ -18,9 +17,7 @@ class App extends Component{
     <Router>
       <div className="container">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="https://codingthesmartway.com" target="_blank">
-              <img src={logo} width="30" height="30" alt="CodingTheSmartWay.com" />
-      </a>
+        <img src={logo} width="30" height="30" alt="#"/>
       <Link to="/" className="navbar-brand">MERN-Stack Todo App</Link>
       <div className="collpase navbar-collapse">
               <ul className="navbar-nav mr-auto">
